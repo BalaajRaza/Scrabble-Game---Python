@@ -548,7 +548,7 @@ class ScrabbleBoard :
         self.screen.exitonclick()
 
     def add_word_to_json(self, player_name , word , score):
-        folder_name = "game"
+        folder_name = "scores"
         if not os.path.exists(folder_name):
             os.makedirs(folder_name)
         
